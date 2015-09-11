@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+* {
+  box-sizing: border-box;
+  font-family: 'Oswald';
+}
+.container {
+  width: 1000px;
+  margin: 2.5% auto;
+}
+.pull-left {
+  float: left;
+}
+aside {
+  width: 49%;
+}
+aside.first {
+  margin-right: .9%;
+}
+aside.second {
+  margin-left: .9%;
+}
+aside select {
+  width: 100%;
+  font-size: 30px;
+  min-height: 233.5px;
+  border: 2px solid #6EB7DD;
+}
+aside select option {
+  padding: 5px 10px;
+  border-bottom: solid 2px #6EB7DD;
+  color: #6EB7DD;
+  cursor: pointer;
+}
+aside select option:last-child {
+  border-bottom: 0;
+}
+.btn {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  display: block;
+  margin-top: 18px;
+  background: #fff;
+  padding: 7px;
+  color: #6EB7DD;
+  text-decoration: none;
+  border: solid 2px #6EB7DD;
+}
+h1 {
+  color: #6EB7DD;
+  background: #fff;
+  text-align: center;
+  font-size: 40px;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 20px;
+  border: 2px solid #6EB7DD;
+}
+.inner-container {
+  float: left;
+  width: 100%;
+  padding: 18px;
+  border: 2px solid #6EB7DD;
+  background: #efefef;
+  text-transform: capitalize;
+}
